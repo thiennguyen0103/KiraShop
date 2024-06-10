@@ -1,0 +1,6 @@
+@KiraShop.Services.AuthAPI_HostAddress = http://localhost:5107
+
+GET {{KiraShop.Services.AuthAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

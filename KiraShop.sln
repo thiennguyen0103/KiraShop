@@ -5,7 +5,9 @@ VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{B2AA1376-8950-4399-9A38-7F14ABDEC785}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KiraShop.Services.CouponAPI", "Services\KiraShop.Services.CouponAPI\KiraShop.Services.CouponAPI.csproj", "{A4287A5B-303D-4488-8F78-12446A959902}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KiraShop.Services.CouponAPI", "Services\KiraShop.Services.CouponAPI\KiraShop.Services.CouponAPI.csproj", "{A4287A5B-303D-4488-8F78-12446A959902}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KiraShop.Services.AuthAPI", "Services\KiraShop.Services.AuthAPI\KiraShop.Services.AuthAPI.csproj", "{A9330023-AE96-4CC7-98D8-7921BFDC8526}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +19,17 @@ Global
 		{A4287A5B-303D-4488-8F78-12446A959902}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4287A5B-303D-4488-8F78-12446A959902}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4287A5B-303D-4488-8F78-12446A959902}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9330023-AE96-4CC7-98D8-7921BFDC8526}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9330023-AE96-4CC7-98D8-7921BFDC8526}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9330023-AE96-4CC7-98D8-7921BFDC8526}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9330023-AE96-4CC7-98D8-7921BFDC8526}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A4287A5B-303D-4488-8F78-12446A959902} = {B2AA1376-8950-4399-9A38-7F14ABDEC785}
+		{A9330023-AE96-4CC7-98D8-7921BFDC8526} = {B2AA1376-8950-4399-9A38-7F14ABDEC785}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2591582C-418F-438C-812E-991836B213D0}
